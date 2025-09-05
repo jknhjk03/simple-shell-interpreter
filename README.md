@@ -41,12 +41,24 @@ This shell supports running commands, managing foreground and background process
 ```bash
 brew install readline
 ```
+
 ## Install Readline (Ubuntu/Debian)
 ```bash
 sudo apt-get install libreadline-dev
 ```
 
+## Build the Project
+```bash
+make
+```
+
+## Run the Shell
+```bash
+./ssi
+```
+
 ## Example Usage
+```bash
 james@MacBook: ~/ssi-project > ls
 Makefile  src  README.md
 
@@ -57,3 +69,4 @@ james@MacBook: ~/ssi-project > bglist
 [1] Running PID: 12345
 
 james@MacBook: ~/ssi-project > exit
+```
