@@ -40,5 +40,5 @@ This shell supports running commands, managing foreground and background process
 #### Install Readline (macOS):
 ```bash
 brew install readline
-
---- ##
+```
+## Example Usage
