@@ -42,6 +42,9 @@ This shell supports running commands, managing foreground and background process
 brew install readline
 ```
 ## Install Readline (Ubuntu/Debian)
+```bash
+sudo apt-get install libreadline-dev
+```
 
 ## Example Usage
 james@MacBook: ~/ssi-project > ls
