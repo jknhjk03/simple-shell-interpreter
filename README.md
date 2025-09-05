@@ -42,3 +42,13 @@ This shell supports running commands, managing foreground and background process
 brew install readline
 ```
 ## Example Usage
+james@MacBook: ~/ssi-project > ls
+Makefile  src  README.md
+
+james@MacBook: ~/ssi-project > bg sleep 5
+[1] PID: 12345
+
+james@MacBook: ~/ssi-project > bglist
+[1] Running PID: 12345
+
+james@MacBook: ~/ssi-project > exit
