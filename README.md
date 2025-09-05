@@ -41,6 +41,8 @@ This shell supports running commands, managing foreground and background process
 ```bash
 brew install readline
 ```
+## Install Readline (Ubuntu/Debian)
+
 ## Example Usage
 james@MacBook: ~/ssi-project > ls
 Makefile  src  README.md
